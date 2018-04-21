@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BudgetManagement</string>
+    <string name="convert">Convert</string>
+    <string name="usdtxt">USD</string>
+    <string name="eurtxt">EUR</string>
+    <string name="inrtxt">INR</string>
+    <string name="zero">zero</string>
+    <string name="selected_place">Selected place</string>
+    <string-array name="categorii">
+        <item>Salariu</item>
+        <item>Cheltuieli casnice</item>
+        <item>Cheltuieli pentru transport</item>
+        <item>Cheltuieli pentru mancare</item>
+    </string-array>
+    <string-array name="currency">
+        <item>RON</item>
+        <item>EUR</item>
+        <item>USD</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_markers">Map</string>
+</resources>

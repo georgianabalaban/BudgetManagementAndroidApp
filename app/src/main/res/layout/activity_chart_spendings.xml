@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linear"
+    android:orientation="vertical"
+    tools:context="com.example.geo.budgetmanagement.ChartSpendings">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbarChart"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:title="Pie chart Spendings"
+        app:titleMarginStart="50dp"
+        app:titleTextColor="@color/Linen"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_marginTop="30px"
+        android:layout_marginLeft="100px">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30px">
+            <ImageView
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:id="@+id/blueMancare" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cheltuieli pentru mancare"
+                android:layout_marginLeft="30px"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30px">
+            <ImageView
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:id="@+id/greenCasnic" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cheltuieli casnice"
+                android:layout_marginLeft="30px"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30px">
+            <ImageView
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:id="@+id/redTransport" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cheltuieli transport"
+                android:layout_marginLeft="30px"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

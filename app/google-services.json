@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "707417365014",
+    "firebase_url": "https://budgetmanagement-80c27.firebaseio.com",
+    "project_id": "budgetmanagement-80c27",
+    "storage_bucket": "budgetmanagement-80c27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707417365014:android:699d58e1a3b1aee1",
+        "android_client_info": {
+          "package_name": "com.example.geo.budgetmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707417365014-vcucp3sklrde29juomeh669qqc2jnnga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPMhnD8sHMIpfdUODZHYmKyeDWID8FvD8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

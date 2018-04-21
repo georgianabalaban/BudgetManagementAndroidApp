@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_settings"
+        android:title="Setari"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/main_spendings"
+        android:title="Procente cheltuieli"
+        android:orderInCategory="101"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/main_history"
+        android:title="Istoric buget"
+        android:orderInCategory="102"
+        app:showAsAction="never"/>
+    <item android:id="@+id/convertorvalutar"
+        android:title="Convertor valutar"
+        android:orderInCategory="103"
+        app:showAsAction="never"/>
+    <item android:id="@+id/piechart"
+        android:title="Pie Chart Spendings"
+        android:orderInCategory="104"
+        app:showAsAction="never"/>
+</menu>
